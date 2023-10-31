@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Yantramanav:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  color: rgb(0, 0, 0)!important;
+  background: #F5F5F5!important;
+  min-height: 100vh;
+}
+
+*{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+
+.Yantramanav{
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.EditProfile:hover .ButtonEditProfile{
+  transition: all .3s ease;
+  opacity: 1;
+}
+
