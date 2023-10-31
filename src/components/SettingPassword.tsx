@@ -3,10 +3,10 @@
 import React from 'react';
 import SettingItemInput from './SettingItemInput';
 import { useMutation } from '@apollo/client';
-import { UpdatePasswordMutation } from '@/gql/graphql';
-import { useUserStore } from '@/stores/userStore';
+import { UpdatePasswordMutation } from '../gql/graphql';
+import { useUserStore } from '../stores/userStore';
 import { GraphQLErrorExtensions } from 'graphql';
-import { UPDATE_PASSWORD } from '@/graphql/mutations/UpdatePassword';
+import { UPDATE_PASSWORD } from '../graphql/mutations/UpdatePassword';
 import SuccessModal from './SuccessModal';
 
 function SettingPassword () {

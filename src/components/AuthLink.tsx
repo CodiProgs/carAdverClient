@@ -1,6 +1,6 @@
 "use client";
 
-import { useUserStore } from '@/stores/userStore';
+import { useUserStore } from '../stores/userStore';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';

@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 import Input from './Input';
 import { useMutation } from '@apollo/client';
-import { RegisterUserMutation } from '@/gql/graphql';
-import { REGISTER_USER } from '@/graphql/mutations/Register';
-import { useUserStore } from '@/stores/userStore';
+import { RegisterUserMutation } from '../gql/graphql';
+import { REGISTER_USER } from '../graphql/mutations/Register';
+import { useUserStore } from '../stores/userStore';
 import { GraphQLErrorExtensions } from 'graphql';
 import SuccessModal from './SuccessModal';
 

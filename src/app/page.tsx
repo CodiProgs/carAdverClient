@@ -1,7 +1,7 @@
 "use client";
 
-import Cars from "@/components/Cars";
-import Make from "@/components/Make";
+import Cars from "../components/Cars";
+import Make from "../components/Make";
 
 export default function Home() {
 

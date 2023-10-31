@@ -3,7 +3,7 @@
 import React from 'react';
 import AuthLink from './AuthLink';
 import { BsSearch } from 'react-icons/bs';
-import { useGeneralStore } from '@/stores/generalStore';
+import { useGeneralStore } from '../stores/generalStore';
 
 function TopNav () {
     const setOpenIsSideNav = useGeneralStore((state) => state.setOpenIsSideNav)

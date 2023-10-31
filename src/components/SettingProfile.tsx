@@ -2,12 +2,12 @@
 
 import React, { useEffect } from 'react';
 import SettingItem from './SettingItem';
-import { useUserStore } from '@/stores/userStore';
+import { useUserStore } from '../stores/userStore';
 import { useMutation } from '@apollo/client';
-import { UpdateUserMutation } from '@/gql/graphql';
+import { UpdateUserMutation } from '../gql/graphql';
 import { AiOutlineReload, AiOutlineUser } from 'react-icons/ai';
 import SettingItemInput from './SettingItemInput';
-import { UPDATE_USER } from '@/graphql/mutations/Update';
+import { UPDATE_USER } from '../graphql/mutations/Update';
 import { GraphQLErrorExtensions } from 'graphql';
 import { BsGeoAlt, BsTelephone } from 'react-icons/bs';
 import SuccessModal from './SuccessModal';

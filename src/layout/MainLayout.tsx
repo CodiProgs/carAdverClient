@@ -1,12 +1,12 @@
 "use client";
 
-import SideNav from '@/components/SideNav';
-import TopNav from '@/components/TopNav';
-import { client } from '@/utils/apolloClient';
+import SideNav from '../components/SideNav';
+import TopNav from '../components/TopNav';
+import { client } from '../utils/apolloClient';
 import { ApolloProvider } from '@apollo/client';
 import React, { useEffect } from 'react';
 import { usePathname } from 'next/navigation'
-import { useGeneralStore } from '@/stores/generalStore';
+import { useGeneralStore } from '../stores/generalStore';
 
 function MainLayout ({ children }: { children: React.ReactNode }) {
     const pathname = usePathname()

@@ -26,7 +26,7 @@ function SettingItem ({label, text, icon, onChange, error, closed, setData} : {l
                     <button className='opacity-0 ButtonEditProfile' onClick={() => setOpenInput(true)}>
                         <AiOutlineEdit size={20} color="#7C7C8D"/>
                     </button>
-                    {openInput && <SettingItemInput modal={true} onClick={() => {setOpenInput(false); setData!()}} onChange={onChange}/>}
+                    {openInput && <SettingItemInput type='text' modal={true} onClick={() => {setOpenInput(false); setData!()}} onChange={onChange}/>}
                 </div>
                 {error && <div className='text-red-500 text-[12px]'>{error}</div>}
             </div>

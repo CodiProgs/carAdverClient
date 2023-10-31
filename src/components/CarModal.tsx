@@ -3,12 +3,12 @@
 import React from 'react';
 import Input from './Input';
 import { GraphQLErrorExtensions } from 'graphql';
-import { useUserStore } from '@/stores/userStore';
+import { useUserStore } from '../stores/userStore';
 import AllMakeList from './AllMakeList';
 import GetModelsByMake from './GetModelsByMake';
 import { useMutation } from '@apollo/client';
-import { CreateCarMutation } from '@/gql/graphql';
-import { CREATE_CAR } from '@/graphql/mutations/CreateCar';
+import { CreateCarMutation } from '../gql/graphql';
+import { CREATE_CAR } from '../graphql/mutations/CreateCar';
 import SuccessModal from './SuccessModal';
 
 function CarModal () {

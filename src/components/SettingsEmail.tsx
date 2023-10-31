@@ -1,12 +1,12 @@
 "use client"
 
 import React from 'react';
-import { useUserStore } from '@/stores/userStore';
+import { useUserStore } from '../stores/userStore';
 import SettingItemInput from './SettingItemInput';
 import { GraphQLErrorExtensions } from 'graphql';
 import { useMutation } from '@apollo/client';
-import { UpdateEmailMutation } from '@/gql/graphql';
-import { UPDATE_EMAIL } from '@/graphql/mutations/UpdateEmail';
+import { UpdateEmailMutation } from '../gql/graphql';
+import { UPDATE_EMAIL } from '../graphql/mutations/UpdateEmail';
 import SuccessModal from './SuccessModal';
 
 function SettingsEmail () {

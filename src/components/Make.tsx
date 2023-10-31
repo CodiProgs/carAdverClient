@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { GetAllMakesQuery } from "@/gql/graphql";
-import { GET_ALL_MAKE } from "@/graphql/queries/GetAllMake";
+import { GetAllMakesQuery } from "../gql/graphql";
+import { GET_ALL_MAKE } from "../graphql/queries/GetAllMake";
 import { useQuery } from "@apollo/client";
 import Link from "next/link";
 

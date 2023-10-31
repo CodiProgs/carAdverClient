@@ -5,11 +5,11 @@ import Link from 'next/link';
 import React, { useEffect } from 'react';
 import SideNavItem from './SideNavItem';
 import { useMutation } from '@apollo/client';
-import { LogoutUserMutation } from '@/gql/graphql';
-import { LOGOUT_USER } from '@/graphql/mutations/Logout';
-import { useUserStore } from '@/stores/userStore';
+import { LogoutUserMutation } from '../gql/graphql';
+import { LOGOUT_USER } from '../graphql/mutations/Logout';
+import { useUserStore } from '../stores/userStore';
 import { usePathname } from 'next/navigation';
-import { useGeneralStore } from '@/stores/generalStore';
+import { useGeneralStore } from '../stores/generalStore';
 import { GrAdd } from 'react-icons/gr';
 
 function SideNav () {

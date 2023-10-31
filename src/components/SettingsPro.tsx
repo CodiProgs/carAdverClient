@@ -1,8 +1,8 @@
 "use client"
 
-import { UpdateTypeMutation } from '@/gql/graphql';
-import { UPDATE_TYPE } from '@/graphql/mutations/UpdateType';
-import { useUserStore } from '@/stores/userStore';
+import { UpdateTypeMutation } from '../gql/graphql';
+import { UPDATE_TYPE } from '../graphql/mutations/UpdateType';
+import { useUserStore } from '../stores/userStore';
 import { useMutation } from '@apollo/client';
 import { GraphQLErrorExtensions } from 'graphql';
 import { useRouter } from 'next/navigation';

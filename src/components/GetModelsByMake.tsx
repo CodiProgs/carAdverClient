@@ -1,7 +1,7 @@
 "use client";
 
-import { GetAllMakesQuery, GetModelsAllQuery } from '@/gql/graphql';
-import { GET_MODEL_ALL } from '@/graphql/queries/GetModelAll';
+import { GetAllMakesQuery, GetModelsAllQuery } from '../gql/graphql';
+import { GET_MODEL_ALL } from '../graphql/queries/GetModelAll';
 import { useQuery } from '@apollo/client';
 import React, { useEffect, useRef, useState } from 'react';
 
