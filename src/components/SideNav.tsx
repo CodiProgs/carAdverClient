@@ -35,7 +35,7 @@ function SideNav () {
         if(!loading){
             setMount(true)
         }
-    })
+    }, [loading])
     
         return (
             <div className={['fixed top-0 left-0 max-w-[248px] w-full h-screen z-50 bg-white max-lg:max-w-[200px] max-md:-translate-y-[200%] max-md:top-[80px] max-md:h-[calc(100vh-80px)] transition-all duration-300 max-[425px]:max-w-full',

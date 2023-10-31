@@ -24,7 +24,7 @@ function SettingProfile () {
     const [showSuccessModal, setShowSuccessModal] = React.useState(false);
     useEffect(() => {
         setMount(true);
-    })
+    }, [])
 
     const [updateData, setUpdateData] = React.useState({
         email: user.email,

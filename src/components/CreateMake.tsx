@@ -25,7 +25,7 @@ function CreateMake () {
         if( !user.id && user.type !== 'Pro' ){
             push('/')
         }
-    }, [user])
+    }, [user, push])
 
     const handleCreateMake = async () => {
         setErrors({});

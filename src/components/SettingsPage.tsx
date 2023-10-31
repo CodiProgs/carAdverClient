@@ -16,7 +16,7 @@ function SettingsPage () {
 
     useEffect(() => {
         setMonted(true)
-    })
+    }, [])
 
     if(monted){
         return (

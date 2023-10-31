@@ -26,7 +26,7 @@ function CreateModel () {
         if( !user.id && user.type !== 'Pro' ){
             push('/')
         }
-    }, [user])
+    }, [user, push])
 
     const handleCreateModel = async () => {
         setErrors({});

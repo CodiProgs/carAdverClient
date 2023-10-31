@@ -13,7 +13,7 @@ function Auth () {
         if( user.id ){
             push('/')
         }
-    }, [user])
+    }, [user, push])
 
     return (
         <div className='w-screen h-screen flex items-center justify-center'>

@@ -14,7 +14,7 @@ function MainLayout ({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         setOpenIsSideNav(false)
-    }, [])
+    }, [setOpenIsSideNav])
 
     return (
         <>
