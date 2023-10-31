@@ -3,7 +3,9 @@ import React from 'react';
 import CarId from '../../../components/CarId';
 
 function page () {
-    <CarId/>
+    return(
+        <CarId/>
+    )
 }
 
 export default page;
